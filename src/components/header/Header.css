@@ -29,6 +29,7 @@
     transition: .2s;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 .navbar__btn button:hover{
     background-color: #FAFAFA;

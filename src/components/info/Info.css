@@ -1,0 +1,21 @@
+.info {
+    background-color: #F8EDF0;
+    margin-bottom: 97px;
+}
+.info__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    grid-gap: 74px;
+}
+.info__text h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.info__text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #150101;
+    margin-bottom: 35px;
+}
