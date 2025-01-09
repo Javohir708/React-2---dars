@@ -1,0 +1,33 @@
+.delivery {
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+.delivery__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 39px;
+    text-align: center;
+}
+.delivery__card {
+    border: 1px solid #00000008;
+    border-radius: 1px;
+    padding: 20px;
+    width: 250px;
+    height: auto;
+    transition: .3s;
+}
+.delivery__card:hover {
+    box-shadow: 10px 10px 10px 0px #0000001A ;
+}
+.delivery__card img {
+    margin-bottom: 24px;
+}
+.delivery__card h2 {
+    margin-bottom: 9px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.delivery__card p {
+    font-size: 14px;
+    font-weight: 400;
+}
