@@ -39,3 +39,6 @@
     gap: 27px;
     margin-top: 27px;
 }
+.comment__person img {
+    cursor: pointer;
+}
