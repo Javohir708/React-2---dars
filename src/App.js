@@ -6,6 +6,7 @@ import Hero from './components/hero/Hero';
 import Delivery from './components/delivery/Delivery';
 import Info from './components/info/Info';
 import Product from './components/product/Product';
+import Comment from './components/comment/Comment';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Delivery/>
       <Info/>
       <Product/>
+      <Comment/>
     </div>
   );
 }
